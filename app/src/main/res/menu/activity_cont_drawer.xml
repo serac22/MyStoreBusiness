@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/stock"
+            android:title="@string/menu_stocks" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/employee"
+            android:title="@string/menu_employees" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/reminder"
+            android:title="@string/reminder" />
+
+        <item
+            android:id="@+id/nav_sales"
+            android:icon="@drawable/sale"
+            android:title="@string/menu_sales" />
+
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/reports"
+            android:title="@string/menu_reports" />
+
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/statistics"
+            android:title="@string/menu_statistics" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/menu_settings" />
+    </group>
+</menu>

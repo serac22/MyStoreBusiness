@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.example.my_store_business.adapters.AdapterStocks exampleFilter" />
+      <entry_point TYPE="field" FQNAME="com.example.my_store_business.adapters.AdapterStocks.ViewHolder image" />
+      <entry_point TYPE="field" FQNAME="com.example.my_store_business.account.ui.employees.DetailsEmployees infoItemHasChanged" />
+      <entry_point TYPE="field" FQNAME="com.example.my_store_business.account.ui.stocks.DetailsStock infoItemHasChanged" />
+      <entry_point TYPE="field" FQNAME="com.example.my_store_business.adapters.AdapterStocks.ViewHolder name" />
+      <entry_point TYPE="method" FQNAME="com.example.my_store_business.adapters.AdapterStocks$1 android.widget.Filter.FilterResults performFiltering(java.lang.CharSequence constraint)" />
+      <entry_point TYPE="field" FQNAME="com.example.my_store_business.adapters.AdapterStocks.ViewHolder price" />
+      <entry_point TYPE="method" FQNAME="com.example.my_store_business.adapters.AdapterStocks$1 void publishResults(java.lang.CharSequence constraint, android.widget.Filter.FilterResults results)" />
+      <entry_point TYPE="field" FQNAME="com.example.my_store_business.adapters.AdapterStocks.ViewHolder quantity" />
+      <entry_point TYPE="field" FQNAME="com.example.my_store_business.adapters.AdapterStocks stocksList" />
+      <entry_point TYPE="field" FQNAME="com.example.my_store_business.adapters.AdapterStocks stocksListFull" />
+      <entry_point TYPE="field" FQNAME="com.example.mystorebusiness.adapters.AdapterStocks exampleFilter" />
+      <entry_point TYPE="field" FQNAME="com.example.mystorebusiness.adapters.AdapterStocks.ViewHolder image" />
+      <entry_point TYPE="field" FQNAME="com.example.mystorebusiness.account.ui.stocks.DetailsStock infoItemHasChanged" />
+      <entry_point TYPE="field" FQNAME="com.example.mystorebusiness.adapters.AdapterStocks.ViewHolder name" />
+      <entry_point TYPE="method" FQNAME="com.example.mystorebusiness.adapters.AdapterStocks$1 android.widget.Filter.FilterResults performFiltering(java.lang.CharSequence constraint)" />
+      <entry_point TYPE="field" FQNAME="com.example.mystorebusiness.adapters.AdapterStocks.ViewHolder price" />
+      <entry_point TYPE="method" FQNAME="com.example.mystorebusiness.adapters.AdapterStocks$1 void publishResults(java.lang.CharSequence constraint, android.widget.Filter.FilterResults results)" />
+      <entry_point TYPE="field" FQNAME="com.example.mystorebusiness.adapters.AdapterStocks.ViewHolder quantity" />
+      <entry_point TYPE="field" FQNAME="com.example.mystorebusiness.adapters.AdapterStocks stocksList" />
+      <entry_point TYPE="field" FQNAME="com.example.mystorebusiness.adapters.AdapterStocks stocksListFull" />
+    </entry_points>
+    <pattern value="com.example.my_store_business.adapters.AdapterStocks" />
+    <pattern value="com.example.my_store_business.adapters.AdapterStocks" method="AdapterStocks" />
+    <pattern value="com.example.my_store_business.ExampleUnitTest" method="addition_isCorrect" />
+    <pattern value="com.example.my_store_business.data.Db_Users" method="checkUser" />
+    <pattern value="com.example.my_store_business.account.ContActivity" />
+    <pattern value="com.example.my_store_business.account.ui.home.ContEdit" />
+    <pattern value="com.example.my_store_business.account.ui.notification.DateTypeConverter" method="Date_toLongConverter" />
+    <pattern value="com.example.my_store_business.account.ui.notification.DateTypeConverter" />
+    <pattern value="com.example.my_store_business.data.Db_Employee" />
+    <pattern value="com.example.my_store_business.data.Db_Stocks" />
+    <pattern value="com.example.my_store_business.data.Db_Users" />
+    <pattern value="com.example.my_store_business.data.Db_Employee" method="deleteEmployee" />
+    <pattern value="com.example.my_store_business.data.Db_Stocks" method="deleteItem" />
+    <pattern value="com.example.my_store_business.data.Db_Users" method="deleteUser" />
+    <pattern value="com.example.my_store_business.account.ui.employees.DetailsEmployees" />
+    <pattern value="com.example.my_store_business.account.ui.stocks.DetailsStock" />
+    <pattern value="com.example.my_store_business.account.ui.employees.EmployeesFragment" />
+    <pattern value="com.example.my_store_business.ExampleInstrumentedTest" />
+    <pattern value="com.example.my_store_business.ExampleUnitTest" />
+    <pattern value="com.example.my_store_business.data.Db_Users" method="getBitmapAsByteArray" />
+    <pattern value="com.example.my_store_business.adapters.AdapterStocks" method="getFilter" />
+    <pattern value="com.example.my_store_business.data.UserAccount" method="getImage" />
+    <pattern value="com.example.my_store_business.adapters.AdapterStocks" method="getItemCount" />
+    <pattern value="com.example.my_store_business.account.ui.notification.RoomDAO" method="getRecentEnteredData" />
+    <pattern value="com.example.my_store_business.account.ui.home.HomeFragment" />
+    <pattern value="com.example.my_store_business.MainActivity" />
+    <pattern value="com.example.my_store_business.account.ui.notification.NotifierAlarm" />
+    <pattern value="com.example.my_store_business.RegisterActivity" />
+    <pattern value="com.example.my_store_business.SplashScreenActivity" />
+    <pattern value="com.example.my_store_business.data.UserAccount" method="isActive" />
+    <pattern value="com.example.my_store_business.account.ui.notification.DateTypeConverter" method="Long_toDateConverter" />
+    <pattern value="com.example.my_store_business.account.ui.notification.NotificationFragment" />
+    <pattern value="com.example.my_store_business.account.ui.notification.NotificationFragment" method="NotificationFragment" />
+    <pattern value="com.example.my_store_business.adapters.AdapterStocks" method="onBindViewHolder" />
+    <pattern value="com.example.my_store_business.adapters.AdapterStocks" method="onCreateViewHolder" />
+    <pattern value="com.example.my_store_business.account.ui.notification.RoomDAO" />
+    <pattern value="com.example.my_store_business.data.UserAccount" method="setActive" />
+    <pattern value="com.example.my_store_business.data.UserAccount" method="setImage" />
+    <pattern value="com.example.my_store_business.data.UserAccount" method="setPassword" />
+    <pattern value="com.example.my_store_business.account.ui.stocks.StocksFragment" />
+    <pattern value="com.example.my_store_business.account.ui.stocks.StocksFragment" method="StocksFragment" />
+    <pattern value="com.example.my_store_business.account.ui.notification.RoomDAO" method="Update" />
+    <pattern value="com.example.my_store_business.data.Db_Employee" method="updateEmployee" />
+    <pattern value="com.example.my_store_business.data.Db_Stocks" method="updateItem" />
+    <pattern value="com.example.my_store_business.ExampleInstrumentedTest" method="useAppContext" />
+    <pattern value="com.example.my_store_business.data.UserAccount" />
+    <pattern value="com.example.my_store_business.adapters.AdapterStocks.ViewHolder" />
+    <pattern value="com.example.my_store_business.adapters.AdapterStocks.ViewHolder" method="ViewHolder" />
+    <pattern value="com.example.mystorebusiness.adapters.AdapterStocks" />
+    <pattern value="com.example.mystorebusiness.adapters.AdapterStocks" method="AdapterStocks" />
+    <pattern value="com.example.mystorebusiness.ExampleUnitTest" method="addition_isCorrect" />
+    <pattern value="com.example.mystorebusiness.data.Db_Users" method="checkUser" />
+    <pattern value="com.example.mystorebusiness.account.ContActivity" />
+    <pattern value="com.example.mystorebusiness.account.ui.home.ContEdit" />
+    <pattern value="com.example.mystorebusiness.account.ui.notification.DateTypeConverter" method="Date_toLongConverter" />
+    <pattern value="com.example.mystorebusiness.account.ui.notification.DateTypeConverter" />
+    <pattern value="com.example.mystorebusiness.data.Db_Employee" />
+    <pattern value="com.example.mystorebusiness.data.Db_Stocks" />
+    <pattern value="com.example.mystorebusiness.data.Db_Users" />
+    <pattern value="com.example.mystorebusiness.data.Db_Employee" method="deleteEmployee" />
+    <pattern value="com.example.mystorebusiness.data.Db_Stocks" method="deleteItem" />
+    <pattern value="com.example.mystorebusiness.data.Db_Users" method="deleteUser" />
+    <pattern value="com.example.mystorebusiness.account.ui.employees.DetailsEmployees" />
+    <pattern value="com.example.mystorebusiness.account.ui.stocks.DetailsStock" />
+    <pattern value="com.example.mystorebusiness.account.ui.employees.EmployeesFragment" />
+    <pattern value="com.example.mystorebusiness.ExampleInstrumentedTest" />
+    <pattern value="com.example.mystorebusiness.ExampleUnitTest" />
+    <pattern value="com.example.mystorebusiness.data.Db_Users" method="getBitmapAsByteArray" />
+    <pattern value="com.example.mystorebusiness.adapters.AdapterStocks" method="getFilter" />
+    <pattern value="com.example.mystorebusiness.data.UserAccount" method="getImage" />
+    <pattern value="com.example.mystorebusiness.adapters.AdapterStocks" method="getItemCount" />
+    <pattern value="com.example.mystorebusiness.account.ui.notification.RoomDAO" method="getRecentEnteredData" />
+    <pattern value="com.example.mystorebusiness.account.ui.home.HomeFragment" />
+    <pattern value="com.example.mystorebusiness.MainActivity" />
+    <pattern value="com.example.mystorebusiness.account.ui.notification.NotifierAlarm" />
+    <pattern value="com.example.mystorebusiness.RegisterActivity" />
+    <pattern value="com.example.mystorebusiness.SplashScreenActivity" />
+    <pattern value="com.example.mystorebusiness.data.UserAccount" method="isActive" />
+    <pattern value="com.example.mystorebusiness.account.ui.notification.DateTypeConverter" method="Long_toDateConverter" />
+    <pattern value="com.example.mystorebusiness.account.ui.notification.NotificationFragment" />
+    <pattern value="com.example.mystorebusiness.account.ui.notification.NotificationFragment" method="NotificationFragment" />
+    <pattern value="com.example.mystorebusiness.adapters.AdapterStocks" method="onBindViewHolder" />
+    <pattern value="com.example.mystorebusiness.adapters.AdapterStocks" method="onCreateViewHolder" />
+    <pattern value="com.example.mystorebusiness.account.ui.notification.RoomDAO" />
+    <pattern value="com.example.mystorebusiness.data.UserAccount" method="setActive" />
+    <pattern value="com.example.mystorebusiness.data.UserAccount" method="setImage" />
+    <pattern value="com.example.mystorebusiness.data.UserAccount" method="setPassword" />
+    <pattern value="com.example.mystorebusiness.account.ui.stocks.StocksFragment" />
+    <pattern value="com.example.mystorebusiness.account.ui.stocks.StocksFragment" method="StocksFragment" />
+    <pattern value="com.example.mystorebusiness.account.ui.notification.RoomDAO" method="Update" />
+    <pattern value="com.example.mystorebusiness.data.Db_Employee" method="updateEmployee" />
+    <pattern value="com.example.mystorebusiness.data.Db_Stocks" method="updateItem" />
+    <pattern value="com.example.mystorebusiness.ExampleInstrumentedTest" method="useAppContext" />
+    <pattern value="com.example.mystorebusiness.data.UserAccount" />
+    <pattern value="com.example.mystorebusiness.adapters.AdapterStocks.ViewHolder" />
+    <pattern value="com.example.mystorebusiness.adapters.AdapterStocks.ViewHolder" method="ViewHolder" />
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="android.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="12">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="android.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="11">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="android.annotation.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

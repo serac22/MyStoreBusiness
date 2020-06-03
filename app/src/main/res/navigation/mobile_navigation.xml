@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mystorebusiness.account.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:label="@string/home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.mystorebusiness.account.ui.stocks.StocksFragment"
+        android:label="@string/menu_stocks"
+        tools:layout="@layout/fragment_stocks" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.mystorebusiness.account.ui.employees.EmployeesFragment"
+        android:label="@string/menu_employees"
+        tools:layout="@layout/fragment_employees" />
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.example.mystorebusiness.account.ui.notification.NotificationFragment"
+        android:label="@string/reminder"
+        tools:layout="@layout/fragment_notification"/>
+    <fragment
+        android:id="@+id/nav_sales"
+        android:name="com.example.mystorebusiness.account.ui.sales.SalesFragment"
+        tools:layout="@layout/fragment_sale"
+        android:label="@string/menu_sales" />
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.example.mystorebusiness.account.ui.reports.ReportsFragment"
+        android:label="@string/menu_reports"
+        tools:layout="@layout/fragment_reports"
+        />
+    <fragment
+        android:id="@+id/nav_statistics"
+        android:name="com.example.mystorebusiness.account.ui.statistics.StatisticsFragment"
+        android:label="@string/menu_statistics"
+        tools:layout="@layout/fragment_statistics"/>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.mystorebusiness.account.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings"/>
+</navigation>

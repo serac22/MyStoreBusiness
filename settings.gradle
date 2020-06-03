@@ -1,0 +1,3 @@
+include ':anychart'
+rootProject.name='My Store Business'
+include ':app'

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mystorebusiness" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.ACTION_OPEN_DOCUMENT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.Camera.autofocus" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".account.ui.statistics.charts.PieChartActivity"
+            android:theme="@style/AppTheme.FullScreen"/>
+        <activity android:name=".account.ui.statistics.charts.ColumnChartActivity"
+            android:theme="@style/AppTheme.FullScreen"/>
+        <activity android:name=".account.ui.statistics.charts.VerticalChartActivity"
+            android:theme="@style/AppTheme.FullScreen"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".account.ui.stocks.DetailsStock"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".account.ui.stocks.UpdateStock"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".account.ui.sales.DetailsSale"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".account.ui.stocks.ScanCodeActivity"
+            android:theme="@style/AppTheme.FullScreen"
+            android:noHistory="true"/>
+        <activity
+            android:name=".account.ui.home.ContEdit"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".account.ui.employees.DetailsEmployees"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".account.ContActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_cont"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme.FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.FullScreen" />
+
+        <receiver android:name=".account.ui.notification.NotifierAlarm" />
+    </application>
+
+</manifest>

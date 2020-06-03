@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="347dp"
+        android:layout_height="347dp"
+        android:layout_marginStart="-134dp"
+        android:layout_marginTop="-136dp"
+        android:contentDescription="@string/contentDescription"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/contentDescription"
+        android:layout_marginEnd="-80dp"
+        android:layout_marginBottom="-30dp"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:id="@+id/circle3"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/contentDescription"
+        android:layout_marginEnd="-50dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_toStartOf="@+id/circle2"
+        android:src="@drawable/circle_transparent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="casual"
+            android:text="@string/app_name"
+            android:textAlignment="textStart"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/contentDescription"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ib" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

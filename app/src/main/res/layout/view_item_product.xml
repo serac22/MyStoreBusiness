@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cv"
+        android:layout_marginStart="15dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgProduct"
+                android:layout_width="100dp"
+                android:contentDescription="@string/contentDescription"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/add_image" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/tvNameProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/tv1"
+                android:padding="5dp"
+                android:text="@string/hint_empty"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/product_name"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPriceProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/tv2"
+                android:padding="5dp"
+                android:text="@string/hint_empty"
+                android:layout_below="@id/tvNameProduct"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNameProduct"
+                android:layout_marginStart="120dp"
+                android:padding="5dp"
+                android:text="@string/product_price"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/tvPriceProduct"
+                android:layout_below="@id/tvNameProduct"
+                android:padding="5dp"
+                android:text="@string/dollar"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCodProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/tv4"
+                android:layout_below="@id/tvPriceProduct"
+                android:padding="5dp"
+                android:text="@string/hint_empty"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:padding="5dp"
+                android:text="@string/product_code_item"
+                android:layout_below="@id/tvPriceProduct"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:contentDescription="@string/contentDescription"
+                android:layout_height="20dp"
+                android:scaleType="centerCrop"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/tvQuantity"
+                android:src="@drawable/quantity" />
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="5dp"
+                android:background="@android:color/background_light"
+                android:text="@string/hint_empty"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

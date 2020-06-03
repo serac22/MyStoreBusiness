@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="app_name">My Store Business</string>Welcome to My Store Business
+    <string name="welcome_app">Welcome to My Store Business</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="hint_empty"> </string>
+
+    <string name="singUp">Sing Up</string>
+    <string name="email">E-mail</string>
+    <string name="retype_password">Retype password</string>
+
+    <string name="name">Name</string>
+    <string name="product_name">Name: </string>
+    <string name="product_price">Price: </string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="cnp">CNP</string>
+    <string name="salary">Salary</string>
+    <string name="series">Series</string>
+    <string name="birth">Date of birth</string>
+
+
+
+
+
+
+
+
+
+
+    <string name="title_activity_cont">ContActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="sort_name">Sort by name</string>
+    <string name="sort_price">Sort by price</string>
+    <string name="sort_quantity">Sort by quantity</string>
+    <string name="search">Search</string>
+    <string name="contentDescription">contentDescription</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_stocks">Stocks</string>
+    <string name="menu_employees">Employees</string>
+    <string name="menu_sales">Sales</string>
+    <string name="menu_reports">Reports</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_settings">Settings</string>
+
+
+    <string name="home_second">Home Second</string>
+    <string name="none">none</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="reminder">Reminder</string>
+    <string name="message">Message</string>
+    <string name="what_you_do">What you do?</string>
+    <string name="timeline">Timeline</string>
+    <string name="when_will">When will?</string>
+    <string name="select">Select</string>
+    <string name="add">Add</string>
+    <string name="total">Total</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_reminder">No Reminders Set\nClick + to add the reminders</string>
+    <string name="dollar">$</string>
+
+
+
+
+    <string name="supplier_name_title">Description</string>
+    <string name="quantity_title">Quantity</string>
+    <string name="price_title">Price</string>
+    <string name="date_of_sale">Data of sale:</string>
+    <string name="total_sale">Total sale:</string>
+    <string name="addition_title">Addition</string>
+    <string name="price_final_title">Final price</string>
+    <string name="expiration_title">Expiration date</string>
+    <string name="product_code">Code</string>
+    <string name="product_code_item">Code:</string>
+    <string name="product_name_title">Product Name</string>
+
+    <string name="image">Image</string>
+    <string name="unsaved_changes_dialog_msg">Do you want to change your profile picture?</string>
+    <string name="exit_application">Do you want to exit?</string>
+    <string name="delete_employee">Do you want to delete the employee?</string>
+    <string name="delete_product">Do you want to delete the product?</string>
+    <string name="do_delete_cont">Do you want to delete the cont?</string>
+    <string name="delete_cont">Delete account</string>
+    <string name="log_out">Do you want to log out?</string>
+    <string name="discard">Yes</string>
+    <string name="keep_editing">No</string>
+    <string name="info">My Store Business is a more effective way to take care of store owners can check on stocks and sales in real time.</string>
+    <string name="copy">"@"copyright Serac Ioan Andrei</string>
+
+
+
+    <string name="pie_chart">Salary expenditure statistics</string>
+    <string name="column_chart">Monthly sales statistics</string>
+    <string name="vertical_chart">Annual sales statistics</string>
+
+</resources>

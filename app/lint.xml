@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/add_image.png" />
+        <ignore path="src/main/res/drawable/avatar.png" />
+        <ignore path="src/main/res/drawable/avatar.png" />
+        <ignore path="src/main/res/drawable/avatar.png" />
+        <ignore path="src/main/res/drawable/employee.png" />
+        <ignore path="src/main/res/drawable/exemple.png" />
+        <ignore path="src/main/res/drawable/ib.png" />
+        <ignore path="src/main/res/drawable/ib.png" />
+        <ignore path="src/main/res/drawable/ib.png" />
+        <ignore path="src/main/res/drawable/ic_address.png" />
+        <ignore path="src/main/res/drawable/ic_dob.png" />
+        <ignore path="src/main/res/drawable/ic_email.png" />
+        <ignore path="src/main/res/drawable/ic_mobile.png" />
+        <ignore path="src/main/res/drawable/ic_name.png" />
+        <ignore path="src/main/res/drawable/phone.png" />
+        <ignore path="src/main/res/drawable/quantity.png" />
+        <ignore path="src/main/res/drawable/tick.png" />
+    </issue>
+</lint>
